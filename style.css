@@ -10,7 +10,6 @@ body{
 /* header */
 header{
     display: flex;
-    background: lightblue;
     margin: auto;
     width: 90%;
     height: 10vh;
@@ -18,13 +17,16 @@ header{
 }
 
 .logo-container{
-    background: grey;
     flex: 1;
     display: flex;
 }
 .logo{
     font-weight:600;
+    font-size: 60px;
     margin: 5px;
+    background: linear-gradient(to right,#f96fd2, #e43da1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Main body */
@@ -36,14 +38,95 @@ header{
     align-items: center;
 }
 .product{
-    background-color: lightblue;
-    flex: 1;
+    flex: 2;
 }
-.cover{
+.intro-text h1{
+    font-size: 50px;
+    font-weight: 500;
+    background: linear-gradient(to right,#f96fd2, #e43da1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro-text h4{
+    font-size: 30px;
+    margin-top: 5px;
+    color: #585772;
+}
+.iphone{
     flex: 1;
+    height: 80vh;
 }
 
-
+/* image */
 .iphone img{
-    height: 60vh;
+    height: 100%;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5 ease;
+}
+
+/* buttons */
+.cta-btn{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    margin: 30px 0px 0px 30px;
+}
+
+/* footer */
+.footer{
+    background:black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    position: relative;
+    margin-top: 20px;
+    clear: both;
+
+
+}
+.footer-links{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+}
+.footer-link{
+    color:white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+@keyframes drop {
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* for mobile */
+@media screen and (max-width: 1024px){
+    .presentation{
+        flex-direction: column;
+    }
+    .product{
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .intro-text h1{
+        font-size: 30px
+    }
+    .intro-text h4{
+        font-size: 18px;
+    }
+    .cta{ 
+        padding: 10px 0px 0px 0px;
+    }
+
 }
