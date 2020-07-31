@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+header{
+    display: flex;
+    background: lightblue;
+    margin: auto;
+    width: 90%;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo-container{
+    background: grey;
+    flex: 1;
+    display: flex;
+}
+.logo{
+    font-weight:600;
+    margin: 5px;
+}
+
+/* Main body */
+.presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.product{
+    background-color: lightblue;
+    flex: 1;
+}
+.cover{
+    flex: 1;
+}
+
+
+.iphone img{
+    height: 60vh;
+}
