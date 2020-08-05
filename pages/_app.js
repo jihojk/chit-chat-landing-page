@@ -71,6 +71,21 @@ function MyApp({ Component, pageProps }) {
                   
                   body {
                     font-family: 'Cabin';
+                    margin: 0;
+                  }
+                  body div {
+                    display: flex;
+                    flex: 1;
+                    align-items: flex-start;
+                  }
+         
+                  html,
+                  body {
+                    padding: 0;
+                    margin: 0;
+                  }                  
+                  * {
+                    box-sizing: border-box;
                   }
                 `}</style>
     </div>
