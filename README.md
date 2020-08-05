@@ -1,5 +1,1 @@
-# chit-chat-landing-page
-
-
-Quick and Simple HTML Landing Page for Chit Chat App.
-Purely HTML and CSS
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
