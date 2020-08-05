@@ -15,6 +15,15 @@ export default function Home() {
             <img src="/phone.png" className="img_phone"/>
           </div>
           <div className="wrapper">
+            <div className="titleWrapper">
+              <img src="/logo.png" className="logo"/>
+              <div className="title">ChitChat</div>
+            </div>
+
+            <div className="txt_create">Create, Share, and Earn</div>
+
+            <div className="txt_your">Your content. Your money.</div>
+
             <Link href="/">
               <img src="/apple.png" className="btn_apple"/>
             </Link>
@@ -37,11 +46,9 @@ export default function Home() {
       <style jsx>{`
         .container {
           min-height: 100vh;
-          display: flex;
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
           background-color: #F1F1F1;
+          align-items: stretch;
         }
 
         main {
@@ -55,6 +62,7 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
+          align-self: center;
           max-width: 900px;
           display: flex;
           justify-content: space-around;
@@ -72,19 +80,50 @@ export default function Home() {
 
         .content {
           flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          max-width: 900px;
+          width: 100%;
+        }
+        
+        .titleWrapper {
+          align-items: center;
+        }
+        
+        .logo {
+          width: 77px;
+        }
+        
+        .title {
+          font-size: 40px;
+          margin-left: 15px;
+        }
+        
+        .txt_create {
+          font-size: 42px;
+          margin-top: 50px;
+        }
+        
+        .txt_your {
+          font-size: 24px;
+          margin-top: 50px;
         }
 
         .btn_apple {
           width: 200px;
           cursor: pointer;
+          margin-top: 60px;
         }
         
         .btn_apple + .btn_apple {
-          margin-top: 15px;
+          margin-top: 20px;
         }
 
         .wrapper {
           flex-direction: column;
+          flex: none;
+          align-items: center;
+          margin-bottom: 60px;
         }
 
         .link {
