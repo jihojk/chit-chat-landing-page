@@ -75,7 +75,7 @@ export default function Home() {
         }
 
         .img_phone {
-          width: 252px;
+          width: 307px;
         }
 
         .content {
