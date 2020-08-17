@@ -24,15 +24,15 @@ export default function Home() {
 
             <div className="txt_your">Your content. Your money.</div>
 
-            <Link href="/">
+            <a href="#" className="apple_wrapper">
               <img src="/apple.png" className="btn_apple"/>
-            </Link>
-            <Link href="/">
+            </a>
+            <a href="#" className="apple_wrapper">
               <img src="/googleplay.png" className="btn_apple"/>
-            </Link>
-            <Link href="/">
+            </a>
+            <a href="https://s3.us-east-2.amazonaws.com/stage.assets.chitchat/chitchat.apk" className="apple_wrapper">
               <img src="/apk.png" className="btn_apple"/>
-            </Link>
+            </a>
           </div>
         </div>
       </main>
@@ -111,11 +111,13 @@ export default function Home() {
 
         .btn_apple {
           width: 200px;
-          cursor: pointer;
+        }
+        
+        .apple_wrapper {
           margin-top: 60px;
         }
         
-        .btn_apple + .btn_apple {
+        .apple_wrapper + .apple_wrapper {
           margin-top: 20px;
         }
 
