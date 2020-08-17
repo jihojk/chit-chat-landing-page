@@ -84,6 +84,7 @@ export default function Home() {
           justify-content: space-around;
           max-width: 900px;
           width: 100%;
+          padding: 30px 20px;
         }
         
         .titleWrapper {
@@ -133,10 +134,24 @@ export default function Home() {
           font-size: 14px;
         }
 
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
+        @media (max-width: 800px) {
+          .content {
             flex-direction: column;
+            padding: 30px 20px;
+          }
+          
+          .wrapper {
+            margin: 50px 0 0;
+          }
+          
+          .txt_create {
+            text-align: center;
+          }
+        }
+        
+        @media (max-width: 500px) {
+          .content {
+            padding: 30px 10px;
           }
         }
       `}</style>
