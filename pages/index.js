@@ -30,7 +30,7 @@ export default function Home() {
             <a href="#" className="apple_wrapper">
               <img src="/googleplay.png" className="btn_apple"/>
             </a>
-            <a href="https://s3.us-east-2.amazonaws.com/stage.assets.chitchat/chitchat.apk" className="apple_wrapper">
+            <a href="https://s3.us-east-2.amazonaws.com/stage.assets.chitchat/ChitChat_v0.1.apk" className="apple_wrapper">
               <img src="/apk.png" className="btn_apple"/>
             </a>
           </div>
