@@ -11,6 +11,10 @@ export default function Home() {
 
       <main>
         <div className="content">
+          <div className="mobileTitleWrapper">
+            <img src="/logo.png" className="logo"/>
+            <div className="title">ChitChat</div>
+          </div>
           <div>
             <img src="/phone.png" className="img_phone"/>
           </div>
@@ -133,6 +137,10 @@ export default function Home() {
           color: #929292;
           font-size: 14px;
         }
+        
+        .mobileTitleWrapper{
+          display: none;
+        }
 
         @media (max-width: 800px) {
           .content {
@@ -146,6 +154,17 @@ export default function Home() {
           
           .txt_create {
             text-align: center;
+            margin-top: 0;
+          }
+          
+          .titleWrapper{
+            display: none;
+          }
+          
+          .mobileTitleWrapper {
+            align-items: center;
+            display: flex;
+            margin-bottom: 30px;
           }
         }
         
