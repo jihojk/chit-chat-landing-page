@@ -31,7 +31,7 @@ export default function Home() {
             <a href="#" className="apple_wrapper">
               <img src="/apple.png" className="btn_apple"/>
             </a>
-            <a href="#" className="apple_wrapper">
+            <a href="https://play.google.com/store/apps/details?id=com.chitchatme.io" className="apple_wrapper" target="_blank">
               <img src="/googleplay.png" className="btn_apple"/>
             </a>
             <a href="https://s3.us-east-2.amazonaws.com/stage.assets.chitchat/ChitChat_v0.1.apk" className="apple_wrapper">
