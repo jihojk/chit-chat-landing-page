@@ -28,7 +28,7 @@ export default function Home() {
 
             <div className="txt_your">Your content. Your money.</div>
 
-            <a href="#" className="apple_wrapper">
+            <a href="https://testflight.apple.com/join/88VAAqhu" className="apple_wrapper" target="_blank">
               <img src="/apple.png" className="btn_apple"/>
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.chitchatme.io" className="apple_wrapper" target="_blank">
