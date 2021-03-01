@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -28,7 +27,7 @@ export default function Home() {
 
             <div className="txt_your">Your content. Your money.</div>
 
-            <a href="https://testflight.apple.com/join/88VAAqhu" className="apple_wrapper" target="_blank">
+            <a href="https://apps.apple.com/us/app/chitchatsv/id1490253270" className="apple_wrapper" target="_blank">
               <img src="/apple.png" className="btn_apple"/>
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.chitchatme.io" className="apple_wrapper" target="_blank">
