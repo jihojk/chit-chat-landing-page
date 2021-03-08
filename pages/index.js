@@ -12,7 +12,7 @@ export default function Home() {
         <div className="content">
           <div className="mobileTitleWrapper">
             <img src="/logo.png" className="logo"/>
-            <div className="title">ChitChat</div>
+            <div className="title">Knaq</div>
           </div>
           <div>
             <img src="/phone.png" className="img_phone"/>
@@ -20,7 +20,7 @@ export default function Home() {
           <div className="wrapper">
             <div className="titleWrapper">
               <img src="/logo.png" className="logo"/>
-              <div className="title">ChitChat</div>
+              <div className="title">Knaq</div>
             </div>
 
             <div className="txt_create">Create, Share, and Earn</div>
